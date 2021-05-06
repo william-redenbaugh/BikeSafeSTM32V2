@@ -16,7 +16,10 @@ void lock_detect_thread(void *paremeters){
 
 void setup() {
   os_init(); 
-
+  
+  // Setup the gpio pin that will read if the safe door is open or not. 
+  pinMode(PB11, INPUT_PULLUP);
+  
   // Since we are talking to another device over the serial bus. 
   start_serial_communications();
   _os_yield(); 
