@@ -1,0 +1,9 @@
+[submodule "STM32SafeV2/TeensyOS"]
+	path = STM32SafeV2/TeensyOS
+	url = git@github.com:william-redenbaugh/TeensyOS.git
+[submodule "STM32SafeV2/arduino-crypto"]
+	path = STM32SafeV2/arduino-crypto
+	url = git@github.com:intrbiz/arduino-crypto.git
+[submodule "STM32SafeV2/lib/arduino-crypto"]
+	path = STM32SafeV2/lib/arduino-crypto
+	url = git@github.com:intrbiz/arduino-crypto.git
